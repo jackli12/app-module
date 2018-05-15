@@ -1,0 +1,10 @@
+//通用配置文件
+ext{
+    android=[
+            minSdkVersion: 15, //4.0
+            targetSdkVersion:26,//8.0
+            versionCode: 1,
+            versionName: "1.0"
+    ]
+
+}
