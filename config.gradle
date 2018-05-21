@@ -1,10 +1,17 @@
 //通用配置文件
-ext{
-    android=[
-            minSdkVersion: 15, //4.0
-            targetSdkVersion:26,//8.0
-            versionCode: 1,
-            versionName: "1.0"
+ext {
+    android = [
+            minSdkVersion   : 15, //4.0
+            targetSdkVersion: 26,//8.0
+            versionCode     : 1,
+            versionName     : "1.0"
     ]
+
+    deps = [
+            androidSupport: "com.android.support:appcompat-v7:26.1.0",
+            OkHttp        : "com.squareup.okhttp3:okhttp:3.10.0",
+            fastjson      : "com.alibaba:fastjson:1.2.46"
+    ]
+
 
 }

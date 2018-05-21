@@ -1,8 +1,10 @@
 package com.xp.template.framework;
 
 import android.app.Application;
+import android.util.Log;
 
 import com.xp.template.framework.config.XPConfig;
+import com.xp.template.framework.utils.Logger;
 
 /**
  * describe
@@ -16,6 +18,7 @@ public class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
         XPConfig.application = this;
+        Logger.openDebug(BuildConfig.DEBUG);
     }
 
 }

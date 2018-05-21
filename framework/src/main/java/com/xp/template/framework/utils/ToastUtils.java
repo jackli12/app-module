@@ -17,7 +17,7 @@ import com.xp.template.framework.config.XPConfig;
 
 public class ToastUtils {
 
-    public void show(String msg){
+    public static void show(String msg){
         Toast toast=makeToast();
         TextView tvMsg = (TextView) toast.getView().getTag(R.id.toast_content);
         tvMsg.setText(msg);
