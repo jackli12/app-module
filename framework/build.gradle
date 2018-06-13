@@ -26,5 +26,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     api rootProject.ext.deps.OkHttp
     api rootProject.ext.deps.fastjson
+    api rootProject.ext.deps.recyclerView
 
 }
